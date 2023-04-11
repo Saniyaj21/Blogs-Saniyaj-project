@@ -1,0 +1,41 @@
+.left-nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.blog-link {
+    text-decoration: none;
+}
+
+.blog-box {
+    height: 100px;
+    width: 300px;
+    border: 1px solid green;
+    background-color: white;
+    border-radius: 10px;
+    margin: 5px;
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+
+}
+
+
+.blog-logo {
+    height: 90px;
+    width: auto;
+    margin-left: 15px;
+    // margin-right: 50px;
+
+}
+
+.blog-topic {
+    font-size: 20px;
+    color: red;
+    text-align: center;
+    width: 100%;
+
+}

@@ -1,0 +1,23 @@
+.step-div {
+    // border: 1px solid green;
+    padding: 5px 10px;
+
+
+    >span {
+        font-size: 22px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    >p {
+        display: inline-block;
+        font-size: 18px;
+        margin: 2px 20px;
+        padding-left: 5px;
+        border-left: 2px solid green;
+    }
+
+    >hr {
+        margin: 5px;
+        color: green;
+    }
+}

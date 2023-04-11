@@ -1,0 +1,30 @@
+.home-main {
+
+    min-height: 100vh;
+
+    >p {
+        text-align: justify;
+        padding: 5px 10px;
+    }
+}
+
+.carousel-div {
+    margin-top: 5px;
+}
+
+
+
+// contributors
+.head-con {
+    text-align: center;
+    color: rgb(47, 133, 25);
+}
+
+.contributors {
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}

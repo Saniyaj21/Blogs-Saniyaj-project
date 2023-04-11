@@ -1,0 +1,26 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    text-decoration: none;
+    background-color: rgba(250, 235, 215, 0.801);
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.nav {
+    position: sticky;
+    top: 0px;
+    z-index: 50;
+}
+
+// blogTitle component
+.blog-title {
+    color: green;
+    text-align: center;
+    padding: 10px 5px;
+    font-size: 18px;
+}

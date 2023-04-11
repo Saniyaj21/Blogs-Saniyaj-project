@@ -1,0 +1,22 @@
+.con-div {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    >p {
+        color: rgb(64, 64, 218);
+        font-weight: 400;
+        font-size: 20px;
+        margin: 3px;
+    }
+}
+
+.con-pic {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+
+
+}
