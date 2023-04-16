@@ -8,7 +8,7 @@ import Slider from './Slider';
 import htmlPoster from '../media/banners/htmlBanner.png'
 
 // Contributors
-import Saniyaj from '../Contributors/Saniyaj'
+import Sani from '../creators/Sani';
 
 
 
@@ -31,20 +31,17 @@ const Home = () => {
 
                 >
 
-                    <Slider link='/blog/html' logo={htmlPoster} />
-                    <Slider link='/blog/javascript' logo={htmlPoster} />
-                    <Slider link='/blog/react' logo={htmlPoster} />
-                    <Slider link='/blog/react' logo={htmlPoster} />
-                    <Slider link='/blog/react' logo={htmlPoster} />
-                    <Slider link='/blog/react' logo={htmlPoster} />
-                    <Slider link='/blog/react' logo={htmlPoster} />
+                    <Slider link='/blog/git-github' logo={htmlPoster} />
+                    <Slider link='/blog/git-github' logo={htmlPoster} />
+                    <Slider link='/blog/git-github' logo={htmlPoster} />
+
 
                 </Carousel>
 
             </div>
 
             <br />
-            <Saniyaj />
+            <Sani />
             <p>Hey there, I'm Saniyaj Mallik, <br /> <br />
 
                 We're creating a blog website for the community and inviting developers to contribute so that the dev community can benefit from it. It's an excellent initiative to foster collaboration and knowledge-sharing among peers.</p>
@@ -57,12 +54,8 @@ const Home = () => {
             <hr />
             <div className="contributors">
 
-                <Saniyaj />
-                <Saniyaj />
-                <Saniyaj />
-                <Saniyaj />
-                <Saniyaj />
-                <Saniyaj />
+
+                <Sani />
             </div>
         </div>
     )
