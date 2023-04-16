@@ -4,13 +4,9 @@ import ErrorPage from "./components/Errorpage";
 import Header from "./components/Header";
 import Blog from "./components/Blog";
 import Instruction from "./components/Instruction";
-import DjangoBlog from './Contributors/DjangoBlog';
 
 
-import ReactPage from "./components/ReactPage";
-import HtmlPage from "./components/HtmlPage";
-import CssPage from "./components/CssPage";
-import JsPage from "./components/JsPage";
+import GitBlog from './blogs/GitBlog';
 
 import './styles/main.scss'
 import './styles/code.scss'
@@ -33,11 +29,7 @@ function App() {
 
 
 
-        <Route path='/blog/html' element={<HtmlPage />} />
-        <Route path='/blog/css' element={<CssPage />} />
-        <Route path='/blog/javascript' element={<JsPage />} />
-        <Route path='/blog/react' element={<ReactPage />} />
-        <Route path='/blog/django' element={<DjangoBlog />} />
+        <Route path='/blog/git-github' element={<GitBlog />} />
 
 
 
