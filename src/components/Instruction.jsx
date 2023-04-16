@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
+
 import BlogTitle from '../components/BlogTitle'
 import Text from '../components/Text'
 import Code from '../components/Code'
@@ -60,7 +62,7 @@ const Instruction = () => {
             "
             />
             <p>
-                GitHub repository link <a href="www.google.com" target='_blank'>Source Code</a>
+                GitHub repository link <a href="https://github.com/Saniyaj21/Blogs-Saniyaj-project" target='blank'>Source Code</a>
             </p>
 
             <div>
@@ -125,6 +127,7 @@ const Instruction = () => {
                 <Text text="Goto src/components/Home.jsx and add a import.Replace your name ." />
                 <Code code={homeImport} />
 
+                <Text text="Insert your profile component inside div of className = contributors. " />
                 <Code code={nameComponent} />
 
                 <Text text="Check home page you will find your profile." />
@@ -135,7 +138,7 @@ const Instruction = () => {
                 <Step no={8} heading="Complete Blog?" />
                 <Text text="Push your code and create a pull request to our GitHub repository. We will review your code and then we will merge it." />
                 <Text text="After that you can see your blog public on our website." />
-                <div className="text-center"><a href="https://saniyaj-blogs.vercel.app " target='_blank'><button className='btn btn-primary my-5'>Visit Blogs</button></a></div>
+                <div className="text-center"><Link to="/blog/git-github" ><button className='btn btn-primary my-5'>Dont't Know GitHub?</button></Link></div>
 
             </div>
 
