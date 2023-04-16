@@ -41,21 +41,24 @@ const Home = () => {
             </div>
 
             <br />
-            <Sani />
-            <p>Hey there, I'm Saniyaj Mallik, <br /> <br />
-
-                We're creating a blog website for the community and inviting developers to contribute so that the dev community can benefit from it. It's an excellent initiative to foster collaboration and knowledge-sharing among peers.</p>
-
-
-            <div className="text-center"><Link to='/instruction'><button className='btn btn-success btn-center'>Start Contribution</button></Link></div>
-            <hr />
-            {/* Contributors */}
-            <h2 className="head-con">Our Contributors</h2>
-            <hr />
-            <div className="contributors">
-
+            <div className="container">
 
                 <Sani />
+                <p>Hey there, I'm Saniyaj Mallik, <br /> <br />
+
+                    We're creating a blog website for the community and inviting developers to contribute so that the dev community can benefit from it. It's an excellent initiative to foster collaboration and knowledge-sharing among peers.</p>
+
+
+                <div className="text-center"><Link to='/instruction'><button className='btn btn-success btn-center'>Start Contribution</button></Link></div>
+                <hr />
+                {/* Contributors */}
+                <h2 className="head-con">Our Contributors</h2>
+                <hr />
+                <div className="contributors">
+
+
+                    <Sani />
+                </div>
             </div>
         </div>
     )
