@@ -7,6 +7,7 @@ import Instruction from "./components/Instruction";
 
 
 import GitBlog from './blogs/GitBlog';
+import SassBlog from './blogs/SassBlog';
 
 import './styles/main.scss'
 import './styles/code.scss'
@@ -26,12 +27,8 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/blog' element={<Blog />} />
         <Route path='/instruction' element={<Instruction />} />
-
-
-
         <Route path='/blog/git-github' element={<GitBlog />} />
-
-
+        <Route path='/blog/sass' element={<SassBlog />} />
 
         <Route path='*' element={<ErrorPage />} />
       </Routes>
